@@ -14,17 +14,15 @@ Repositório responsável pelas demos feitas durante a palestra no **[GDG Rio Me
 
 Não sabem como configurar o Ts? Vamos te ajudar!
 
-👉 tsc --init
-👉 Ctrl + Shift + P (Windows Users)
-👉 Tasks: Configure Default Build Task
-👉 Choose: tsc: build - tsconfig.json
-👉 Execute Ctrl + Shift + B (Windows Users)
-👉 node <file-name>
+- 👉 tsc --init
+- 👉 Ctrl + Shift + P (Windows Users)
+- 👉 Tasks: Configure Default Build Task
+- 👉 Choose: tsc: build - tsconfig.json
+- 👉 Execute Ctrl + Shift + B (Windows Users)
+- 👉 node <file-name>
 
-<p align="center">
-  <img src="https://gifyu.com/image/3zFm"/>  
-</p>
+![vscode-tips-02.gif](https://s2.gifyu.com/images/vscode-tips-02.gif)
 
 ## ❗️❗️ Dúvidas?!
 
-Se tiverem alguma dúvida referente ao código feito ou para configurar o ambiente basta criar uma Issue aqui no GitHub que estarei respondendo a vocês!! :D :D 
+Se tiverem alguma dúvida referente ao código feito ou para configurar o ambiente basta criar uma **[ISSUE AQUI](https://github.com/glaucia86/palestra-gdg-rio-ts/issues)** no GitHub que estarei respondendo a vocês!! :D :D 
