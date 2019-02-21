@@ -12,61 +12,18 @@ Repositório responsável pelas demos feitas durante a palestra no **[GDG Rio Me
 
 ## Configuração do Ambiente de Desenvolvimento 🔥
 
-Se você optar em usar o Visual Studio Code, será bem simples de configurar o ambiente.
+Não sabem como configurar o Ts? Vamos te ajudar!
 
-#### 1º Passo:
-Vá até a página do Visual [Studio Code](https://code.visualstudio.com/docs/languages/typescript) -> Docs - Languages -> TypeScript -> tsconfig.json (conforme segue a imagem abaixo):
+👉 tsc --init
+👉 Ctrl + Shift + P (Windows Users)
+👉 Tasks: Configure Default Build Task
+👉 Choose: tsc: build - tsconfig.json
+👉 Execute Ctrl + Shift + B (Windows Users)
+👉 node <file-name>
 
-![alt tag](https://uploaddeimagens.com.br/images/000/921/644/original/pic_1.png?1495141187)
-
-#### 2º Passo:
-Depois basta copiar as informações inerentes ao arquivo: **tsconfig.json**
-
-#### 3º Passo:
-Abre o seu Visual Studio Code e crie na raiz do projeto o arquivo: **tsconfig.json** e logo em seguida copie
-as informações copiadas no site do Visual Studio Code e Salve o arquivo.
-
-
-#### 4º Passo:
-Depois de ter criado o arquivo tsconfig.json, clique nos botões: **Crtl + Shift + P** e digite: **'Configure Default Build Task'** e escolha a opção **tsc:build - tsconfig.json** e vai gerar uma pasta e arquivo: 
-
-* .vscode
-* task.json
-
-
-#### 5º Passo:
-Abre o arquivo: tasks.json e altere para as seguintes linhas:
-
-```
-{
-    // See https://go.microsoft.com/fwlink/?LinkId=733558 
-    // for the documentation about the tasks.json format
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "typescript",
-            "tsconfig": "tsconfig.json",
-            "option": "watch",
-            "problemMatcher": [
-                "$tsc-watch"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        }
-    ]
-}
-
-```
-
-#### 6º Passo:
-Para executar o código, basta clicar nos botões: **CTRL + SHIFT + B** e com o terminal integrado no Visual 
-Studio Code, basta ir até o diretório do arquivo e digitar o seguinte comando:
-
-```
-> node [nome-do-arquivo] || Ex.: -> node animal
-```
+<p align="center">
+  <img src="https://gifyu.com/image/3zFm"/>  
+</p>
 
 ## ❗️❗️ Dúvidas?!
 
