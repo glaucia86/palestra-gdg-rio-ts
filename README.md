@@ -19,7 +19,7 @@ Não sabem como configurar o Ts? Vamos te ajudar!
 - 👉 Tasks: Configure Default Build Task
 - 👉 Choose: tsc: build - tsconfig.json
 - 👉 Execute Ctrl + Shift + B (Windows Users)
-- 👉 node <file-name>
+- 👉 node + (file-name)
 
 ![vscode-tips-02.gif](https://s2.gifyu.com/images/vscode-tips-02.gif)
 
