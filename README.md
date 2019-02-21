@@ -38,22 +38,24 @@ Depois de ter criado o arquivo tsconfig.json, clique nos botões: **Crtl + Shift
 Abre o arquivo: tasks.json e altere para as seguintes linhas:
 
 ```
-{    
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
-  // for the documentation about the tasks.json format
-  "version": "2.0.0",
-  "tasks": [
-    {
-      "taskName": "compile",
-      "type": "shell",
-      "command": "tsc -p tsconfig.json",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": ["$tsc"]
-    }
-  ]
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "typescript",
+            "tsconfig": "tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
 }
 
 ```
