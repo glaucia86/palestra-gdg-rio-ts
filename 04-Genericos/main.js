@@ -5,27 +5,16 @@
  * Autora: Glaucia Lemos
  * Descrição: exemplo do uso de Generics em TypeScript
  */
-var ListarItens = /** @class */ (function () {
-    /**
-     * Construtor da classe 'ListarItens'
-     */
-    function ListarItens() {
-        this.itens = [];
+function listaInversa(lista) {
+    var listaInversaHerois = [];
+    for (var i = lista.length - 1; i > 0; i--) {
+        listaInversaHerois.push(lista[i]);
     }
-    ListarItens.prototype.adicionar = function (item) {
-        this.itens.push(item);
-    };
-    ListarItens.prototype.retornar = function (index) {
-        return this.itens[index];
-    };
-    return ListarItens;
-}());
-var listarString = new ListarItens();
-listarString.adicionar('Glaucia Lemos');
-listarString.adicionar('32');
-// listarString.adicionar(123);
-console.log(listarString.retornar(0).substr(0, 7));
-var listarNumero = new ListarItens();
-listarNumero.adicionar(1);
-// listarNumero.adicionar('Glaucia Lemos');
-listarNumero.adicionar(2);
+    return listaInversaHerois;
+}
+var nomesHerois = ["Capitão América", "Homem de Ferro", "Pantera Negra", "Mulher Maravilha"];
+var numeros = [1, 2, 3, 4, 5, 6, 7];
+var listaInversaNomes = listaInversa(nomesHerois);
+var listaInversaNumeros = listaInversa(numeros);
+console.log(listaInversaNomes);
+console.log(listaInversaNumeros);
