@@ -13,11 +13,11 @@
  * @return {number}
  */
 
-/* function example(a, b) {
+/* function Somar(a, b) {
     return a + b;
 }
 
-example(1, true);*/ 
+Somar(1, true);*/ 
 
 /* let foo = 32;
 
