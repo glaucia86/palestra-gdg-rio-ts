@@ -4,7 +4,7 @@
 
 Repositório responsável pelas demos feitas durante a palestra no **[GDG Rio Meetup # 02](http://bit.ly/2TXrLtH)**
 
-## Recursos Utilizados 🎌
+## Recursos Utilizados 💻
 
 - VsCode - **[DOWNLOAD AQUI](https://code.visualstudio.com/)**
 - Node.Js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
@@ -25,4 +25,4 @@ Não sabem como configurar o Ts? Vamos te ajudar!
 
 ## Dúvidas?! ❗️❗️
 
-Se tiverem alguma dúvida referente ao código feito ou para configurar o ambiente basta criar uma **[ISSUE AQUI](https://github.com/glaucia86/palestra-gdg-rio-ts/issues)** no GitHub que estarei respondendo a vocês!! :D :D 
+Se tiverem alguma dúvida referente ao código desenvolvido ou para configurar o ambiente basta criar uma **[ISSUE AQUI](https://github.com/glaucia86/palestra-gdg-rio-ts/issues)** no GitHub que estarei respondendo a vocês!! :D :D 
