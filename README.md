@@ -23,6 +23,10 @@ Não sabem como configurar o Ts? Vamos te ajudar!
 
 ![vscode-tips-02.gif](https://s2.gifyu.com/images/vscode-tips-02.gif)
 
+![vscode-tips-02.gif](https://thepracticaldev.s3.amazonaws.com/i/nkjt8t1ehw6hqjr1s5zi.gif)
+
+
+
 ## Dúvidas?! ❗️❗️
 
 Se tiverem alguma dúvida referente ao código desenvolvido ou para configurar o ambiente basta criar uma **[ISSUE AQUI](https://github.com/glaucia86/palestra-gdg-rio-ts/issues)** no GitHub que estarei respondendo a vocês!! :D :D 
