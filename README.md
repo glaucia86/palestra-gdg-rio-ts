@@ -6,7 +6,7 @@ Repositório responsável pelas demos feitas durante a palestra no **[GDG Rio Me
 
 ## Recursos Utilizados 💻
 
-- VsCode - **[DOWNLOAD AQUI](https://code.visualstudio.com/)**
+- VsCode - **[DOWNLOAD AQUI](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)**
 - Node.Js - **[DOWNLOAD AQUI](https://nodejs.org/en/)**
 - TypeScript 3.x - **[DOWNLOAD - AQUI](https://www.typescriptlang.org/)**
 
